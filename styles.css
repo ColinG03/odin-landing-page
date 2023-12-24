@@ -72,6 +72,7 @@ a,
     width: 500px;
     margin-top: 32px;
     margin-bottom: 32px;
+    gap: 10px;
     
 }
 
@@ -127,6 +128,20 @@ button{
     color: #1f2937;
     margin: 32px;
 
+}
+
+.outline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.outline img{
+    flex: 1;
+    max-width: 124px;
+    max-height: 124px;
 }
 
 .middle-content .boxes .box .outline{
